@@ -31,7 +31,6 @@ function battle(ourTeam, opponent) {
       opponentScore += currentIndex + 1;
     }
   }
-  console.log({ ourScore, opponentScore })
   return ourScore > opponentScore ? "We win" : ourScore < opponentScore ? "We lose" : "Draw";
 }
 
